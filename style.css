@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  list-style: none;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.nav-list a:hover {
+  background: #4a90e2;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.skills-grid div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #4a90e2;
+}
+
+.upload-section {
+  background: #eef;
+  padding: 20px;
+  border: 1px solid #ccd;
+  border-radius: 5px;
+}
+
+.upload-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="file"],
+form input[type="email"],
+form input[type="text"],
+form button {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+form button:hover {
+  background: #357ab7;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
